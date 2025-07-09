@@ -1,0 +1,36 @@
+/* App.css - Modernized utility styles for ISRO Hackathon UI */
+
+.main-card {
+  background: rgba(255,255,255,0.97);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(79,70,229,0.10);
+  padding: 2.5rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.logo {
+  height: 5em;
+  padding: 1em;
+  transition: filter 300ms;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #6366f1aa);
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 600px) {
+  .main-card {
+    padding: 1.2rem;
+    margin: 1rem;
+  }
+  .logo {
+    height: 3em;
+    padding: 0.5em;
+  }
+}
